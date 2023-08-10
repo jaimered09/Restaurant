@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+body {
+margin: 0;
+font-family:'Fjalla One', sans-serif;
+}
+
+
+.custom-navbar-background {
+    display: flex;
+    background-color: #f3ea03;
+}
+
+
+.nav-link.active {
+    display: flex;
+    transition: .2s ease all;
+    font-weight: bold;
+}
+
+
