@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import footer  from './footer.css'
+import LOGO from 'public/logo-footer.png'
 
 export const Footer = () => {
     return (
@@ -8,7 +9,7 @@ export const Footer = () => {
                 <div className="container py-2">
                     <div className="row gy-4 gx-5">
                         <div className="col-lg-4 col-md-5">
-                            <NavLink className="" to="/"><img src="public/logo-footer.png" alt="logo" className="img-fluid" /></NavLink>
+                            <NavLink className="" to="/"><img src={LOGO} alt="logo" className="img-fluid" /></NavLink>
                             <br />
                             <p className="small text-muted">Somo el restaurante N°1 en pollos</p>
                         </div>
