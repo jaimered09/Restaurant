@@ -13,21 +13,21 @@ export const Carousel = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="/Users/jaimejaramillo/Desktop/VSC/p4/public/carrousel2.png" className="d-block w-100" alt="..." width="1440" height="620" />
+                        <img src="public/carrousel2.png" className="d-block w-100" alt="..." width="1440" height="620" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3>Ven a probar el mejor pollo frito de la costa oeste</h3>
                                 <p>POLLO RECIEN FRITO ♨️ CON TUS SALSAS FAVORITAS 🍗 EN EL MEJOR LUGAR 😎 </p>
                             </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="/Users/jaimejaramillo/Desktop/VSC/p4/public/carousel2 copy.png" className="d-block w-100" alt="..." width="1440" height="620" />
+                        <img src="public/carousel2 copy.png" className="d-block w-100" alt="..." width="1440" height="620" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3>Promo todos los días</h3>
                                 <p>ESTAMOS EN TODOS LADOS 📍🍗 BUSCA TU PROMO MÁS SABROSA 🤤</p>
                             </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="/Users/jaimejaramillo/Desktop/VSC/p4/public/carousel3.png" className="d-block w-100" alt="..." width="1440" height="620" />
+                        <img src="public/carousel3.png" className="d-block w-100" alt="..." width="1440" height="620" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h3>TAKE AWAY -DISFRUTA EN TU HOGAR O DONDE QUIERAS</h3>
                                 <p>ESTAMOS DISPONIBLES EN TODAS LAS APPS DE PEDIDOS 🍗🥡</p>
