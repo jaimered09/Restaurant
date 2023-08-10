@@ -42,7 +42,7 @@ const enviarFormulario = async (e) => {
             <input type="datetime-local" className="form-control mt-3" name="fecha" placeholder="Fecha de reserva" value={reserva.fecha} onChange={cambiar} />
             <input type="email" className="form-control mt-3" name="email" placeholder="E-mail" value={reserva.email} onChange={cambiar} />
             <button type="submit" className="btn btn-primary mt-3">Hacer reserva</button>
-            <img className="img-responsive" src="public/assets/images/pollosrecort.png" alt="pollos" />
+            <img className="img-responsive" src="public/pollosrecort.png" alt="pollos" />
           </form>
         </div>
       </div>

@@ -5,7 +5,7 @@ export const NosotrosPollos = () => {
     return (
         <>
             <div className="card">
-                <img src="public/assets/images/local.jpeg" className="card-img" alt="local" width="800" height="650"/>
+                <img src="public/local.jpeg" className="card-img" alt="local" width="800" height="650"/>
                 <div className="card-img-overlay">
                     <div id='tarjeta'>
                         <h5 className="card-title"> 🍗⭐️ Los Pollos Hermanos - desde 1999 el mejor Pollo Frito 🍗⭐️</h5>
