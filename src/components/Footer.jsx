@@ -9,7 +9,7 @@ export const Footer = () => {
                 <div className="container py-2">
                     <div className="row gy-4 gx-5">
                         <div className="col-lg-4 col-md-5">
-                            <NavLink className="" to="/"><img src="https://github.com/jaimered09/Restaurant/blob/main/public/assets/images/logo-footer.png" alt="logo" className="img-fluid" /></NavLink>
+                            <NavLink className="" to="/"><img src="/Users/jaimejaramillo/Desktop/VSC/p4/public/logo-footer.png" alt="logo" className="img-fluid" /></NavLink>
                             <br />
                             <p className="small text-muted">Somo el restaurante N°1 en pollos</p>
                         </div>
