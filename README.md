@@ -8,7 +8,6 @@ Este es un sitio dedicado a los restaurantes de la marca ficticia "Los Pollos He
 
 ## Insignias
 
-![Fecha lanzamiento](https://img.shields.io/badge/release%20date-15%13August-green)
 ![Versión](https://img.shields.io/badge/versión-1.0-blue)
 ![Creador](https://img.shields.io/badge/build-jaimered09-red)
 
