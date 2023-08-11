@@ -16,7 +16,7 @@ export const DondeEs = () => {
                     </div>
                     <div className="card-footer button-container">
                     <div className="location-container">
-                        <img src="public/card2.jpg" alt="local" />
+                        <img src="images/card2.jpg" alt="local" />
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.682476594472!2d-106.6889281241112!3d35.01465276630262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87220d0a121604ed%3A0xc185463b0a72dca6!2sLos%20Pollos%20Hermanos!5e0!3m2!1sen!2scl!4v1691615304940!5m2!1sen!2scl"
                             width="600"
