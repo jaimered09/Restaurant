@@ -13,13 +13,25 @@ export const Carousel = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="public/images2/iPhone-14 header copy.webp" className="d-block w-100" alt="..." width="1440" height="620" />
+                        <img src="images/carrousel2.png" className="d-block w-100" alt="..." width="1440" height="620" />
+                            <div className="carousel-caption d-none d-md-block">
+                                <h3>Ven a probar el mejor pollo frito de la costa oeste</h3>
+                                <p>POLLO RECIEN FRITO ♨️ CON TUS SALSAS FAVORITAS 🍗 EN EL MEJOR LUGAR 😎 </p>
+                            </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="public/images2/carouselheader.webp" className="d-block w-100" alt="..." width="1440" height="620" />
+                        <img src="images/carousel2 copy.png" className="d-block w-100" alt="..." width="1440" height="620" />
+                            <div className="carousel-caption d-none d-md-block">
+                                <h3>Promo todos los días</h3>
+                                <p>ESTAMOS EN TODOS LADOS 📍🍗 BUSCA TU PROMO MÁS SABROSA 🤤</p>
+                            </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="public/images2/bannerheader iphone2- copy.webp" className="d-block w-100" alt="..." width="1440" height="620" />
+                        <img src="images/carousel3.png" className="d-block w-100" alt="..." width="1440" height="620" />
+                            <div className="carousel-caption d-none d-md-block">
+                                <h3>TAKE AWAY -DISFRUTA EN TU HOGAR O DONDE QUIERAS</h3>
+                                <p>ESTAMOS DISPONIBLES EN TODAS LAS APPS DE PEDIDOS 🍗🥡</p>
+                            </div>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -30,48 +42,6 @@ export const Carousel = () => {
                     <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
-            </div>
-            <div className="titular">
-                <p>
-                    <h4> 📱 LOS TOP #3 SAMSUNG DE LA SEMANA 📱</h4>
-                </p>
-            </div>
-            <div className="row">
-                <div className="col-sm-6 col-md-4 mb-2">
-                    <div className="thumbnail">
-                        <img src="public/images2/iconmobile.png" alt="phone1" />
-                        <div className="caption">
-                            <h3>Samsung Galaxy S23</h3>
-                            <p><a to="#" className="btn btn-primary" role="button">Comprar</a> <a to="#" className="btn btn-default" role="button">Ver</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-sm-6 col-md-4 mb-2">
-                    <div className="thumbnail">
-                        <img src="public/images2/iconmobile.png" alt="phone2" />
-                        <div className="caption">
-                            <h3>Samsung Galaxy S22</h3>
-                            <p><a to="#" className="btn btn-primary" role="button">Comprar</a> <a to="#" className="btn btn-default" role="button">Ver</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-sm-6 col-md-4 mb-2">
-                    <div className="thumbnail">
-                        <img src="public/images2/iconmobile.png" alt="phone3" />
-                        <div className="caption">
-                            <h3>Samsung Galaxy S21</h3>
-                            <p><a to="#" className="btn btn-primary" role="button">Comprar</a> <a to="#" className="btn btn-default" role="button">Ver</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <img src="public/images2/header_landing_todo copy.png" alt="" />
-            </div>
-            <div className="titular2">
-                <h4> CONOCE LA NORMATIVA DE LA SUBTEL AQUÍ</h4>
-                <img src="public/images2/logo_subtel_reducido.png" alt="" />
-                <img src="public/images2/banner 5g.png" alt="" />
             </div>
         </>
     )

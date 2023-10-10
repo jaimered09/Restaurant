@@ -1,0 +1,42 @@
+.card.text-bg-dark {
+    color: white;
+  }
+
+#tarjeta {
+    background-color: rgba(216, 165, 47, 0.7);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-title {
+padding-top: 10px;
+}
+
+.boton-enlace {
+    cursor: pointer;
+    border-style: double;
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #D8A52F;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-enlace:hover {
+    background-color: #053ea3;
+  }
+
+  @media (max-width: 768px) {
+    #tarjeta {
+        font-size: 14px;
+    }
+
+    .boton-enlace {
+        font-size: 14px;
+    }
+}

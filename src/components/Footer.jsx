@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import './footer.css';
+import footer  from './footer.css'
 
 export const Footer = () => {
     return (
@@ -8,15 +8,15 @@ export const Footer = () => {
                 <div className="container py-2">
                     <div className="row gy-4 gx-5">
                         <div className="col-lg-4 col-md-5">
-                            <NavLink className="" to="/"><img src="public/images2/footerlogos.png" alt="logo" className="img-fluid" /></NavLink>
+                            <NavLink className="" to="/"><img src="images/logo-footer.png" alt="logo" className="img-fluid" /></NavLink>
                             <br />
-                            <p className="small text-muted">Los mejores celulares | Respaldo ProPhone</p>
+                            <p className="small text-muted">Somo el restaurante N°1 en pollos</p>
                         </div>
                         <div className="col-lg-2 col-md-6">
                             <h5 className="text-black mb-3">Enlaces</h5>
                             <ul className="list-unstyled text-muted">
                                 <li id='lista'><NavLink to="/">Inicio</NavLink></li>
-                                <li id='lista' ><NavLink to="/menu">Productos</NavLink></li>
+                                <li id='lista' ><NavLink to="/menu">Menú</NavLink></li>
                                 <li id='lista'><NavLink to="/novedades">Novedades</NavLink></li>
                                 <li id='lista'><NavLink to="/">Trabaja con nosotros</NavLink></li>
                             </ul>
@@ -31,10 +31,11 @@ export const Footer = () => {
                             </ul>
                         </div>
                         <div className="col-lg-4 col-md-6">
-                            <p className="small text-muted">BUSCA TU PRÓXIMO CELULAR:</p>
+                            <h5 className="text-black mb-3">Dónde estamos</h5>
+                            <p className="small text-muted">Ingresa tu dirección y encuentra los locales cercanos</p>
                             <form action="#">
                                 <div className="input-group mb-3">
-                                    <input className="form-control" type="text" placeholder="Marca | Modelo" aria-label="Recipient's username" aria-describedby="button-addon2" />
+                                    <input className="form-control" type="text" placeholder="Busca tu local más cercano" aria-label="Recipient's username" aria-describedby="button-addon2" />
                                     <button className="btn btn-primary" id="button-addon2" type="button"><i className="fas fa-paper-plane"></i></button>
                                 </div>
                             </form>
@@ -44,7 +45,7 @@ export const Footer = () => {
                 <div className="row justify-content-center align-items-center">
                     <div className="col-auto">
                     <p className="small text-muted mb-0">&copy; Copyrights. Todos los derechos reservados.
-                        <NavLink className="text-primary" to="/" >prophone.cl</NavLink></p>
+                        <NavLink className="text-primary" to="/" >Lospolloshermanos.com</NavLink></p>
                         </div>
                         </div>
             </footer>
