@@ -1,9 +1,7 @@
-import { NavLink, } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './navBar.css';
 
-
 export const NavBar = () => {
-
     return (
         <>
             <nav className="navbar navbar-expand-lg custom-navbar-background">
@@ -38,4 +36,3 @@ export const NavBar = () => {
         </>
     );
 };
-

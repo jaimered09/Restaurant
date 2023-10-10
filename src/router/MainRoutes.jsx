@@ -19,7 +19,11 @@ export const MainRoutes = () => {
             <Route path='/login' element={<LoginForm />} />
             <Route path='/productos' element={<ProductList />} />
             <Route path='/register' element={<SignupForm />} />
+
+
+
             <Route path='*' element={<h1>Error 404 - ruta no encontrada</h1>} />
+
 
         </Routes>
     )
