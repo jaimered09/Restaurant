@@ -1,11 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 import { HomePage } from '../pages/HomePage';
-import { Menu } from '../pages/Menu';
-import { Novedades } from "../pages/Novedades";
-import { Reservas } from "../pages/Reservas";
-import { PideAqui } from "../pages/PideAqui";
-import { Nosotros } from "../pages/Nosotros";
-import { DondeEstamos } from "../pages/DondeEstamos";
+import { LoginForm } from "../components/LoginForm";
+import { SignupForm } from "../components/SignupForm";
+import { ProductList } from "../components/ProductList";
+
+
+
+
+
 
 
 
@@ -14,12 +16,10 @@ export const MainRoutes = () => {
     return (
         <Routes>
             <Route path='/' element={<HomePage />} />
-            <Route path='/menu' element={<Menu />} />
-            <Route path='/novedades' element={<Novedades />} />
-            <Route path='/reservas' element={<Reservas />} />
-            <Route path='/nosotros' element={<Nosotros />} />
-            <Route path='/pideaqui' element={<PideAqui />} />
-            <Route path='/dondeestamos' element={<DondeEstamos/>} />
+            <Route path='/login' element={<LoginForm />} />
+            <Route path='/productos' element={<ProductList />} />
+            <Route path='/register' element={<SignupForm />} />
+
 
 
             <Route path='*' element={<h1>Error 404 - ruta no encontrada</h1>} />

@@ -1,52 +1,38 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import './navBar.css';
 
 export const NavBar = () => {
-
     return (
         <>
             <nav className="navbar navbar-expand-lg custom-navbar-background">
                 <div className="container-fluid">
-                    <NavLink className="navbar-brand" to="/"><img src="images/pollos-header.png" alt="logo"className="img-fluid"/></NavLink>
+                    <NavLink className="navbar-brand" to="/">
+                        <img src="public/images2/logophone copy2.jpg" alt="logo" className="img-fluid" />
+                    </NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <NavLink activeClassName="active" className="nav-link" aria-current="page" to="/">Inicio</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink activeClassName="active" className="nav-link" to="/menu">Menú</NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink className="nav-link" aria-current="page" to="/novedades">Novedades</NavLink>
+                                <NavLink activeclassname="active" className="nav-link" aria-current="page" to="/">Inicio</NavLink>
                             </li>
                             <li className="nav-item dropdown">
-                                <NavLink className="nav-link" to="dondeestamos">
-                                    Dónde estamos
+                                <NavLink className="nav-link" to="/productos">
+                                    Productos
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="reservas">Reservas</NavLink>
+                                <NavLink className="nav-link" to="/register">Registrarse</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="nosotros">Sobre Nosotros</NavLink>
+                                <NavLink className="nav-link" to="/login">Iniciar Sesión</NavLink>
                             </li>
-                            <li>
-                            <NavLink to="/pideaqui" className="nav-link">
-                                <button className="btn btn-outline-success" type="submit">PIDE AQUÍ</button>
-                            </NavLink>
-                            </li>
+                            <img src="public/images2/session-join-svgrepo-com copy.gif" width={35} alt="logosesion" />
                         </ul>
-                        <ul className="nav-item">
-                            <NavLink className="nav-link" to="#">Descarga la APP</NavLink>
-                            </ul>
-                        <li>
-                            <img src="images/applogo.png" alt="logoapp"className="img-fluid"/>
-                        </li>
                     </div>
                 </div>
             </nav>
         </>
-    )
-}
+    );
+};

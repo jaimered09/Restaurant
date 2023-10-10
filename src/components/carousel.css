@@ -20,3 +20,26 @@
     text-shadow: 2px 2px 0 black;
     position: absolute;
 }
+
+.titular {
+
+    padding-top: 20px;
+    text-align: center;
+    background-color: #B22222;
+    color: white;
+}
+
+
+.titular2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #053EA3;
+    color: white;
+}
+
+.thumbnail {
+    display: flex;
+    align-items: center;
+}
+
