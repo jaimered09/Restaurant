@@ -10,9 +10,6 @@ import { UserState } from './context/UserState';
 
 
 
-
-
-
 function App() {
 
   const [allProducts, setAllProducts] = useState([]);
@@ -22,10 +19,6 @@ function App() {
 
   return (
     <>
-  {/* <PayPalScriptProvider
-    options={{
-      "client-id": import.meta.env.VITE_PAYPAL_CLIENT_ID
-    }}> */}
     <UserState>
       <NavBar />
       <MainRoutes />
@@ -47,7 +40,6 @@ function App() {
       />
       <Footer />
       </UserState>
-      {/* </PayPalScriptProvider> */}
     </>
   )
 }

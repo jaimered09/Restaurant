@@ -27,7 +27,7 @@ export const LoginForm = () => {
         verifyingToken()
     
         if(authStatus) {
-            navigate("/books")
+            navigate("/")
         }
     }, [authStatus, verifyingToken, navigate])
 
